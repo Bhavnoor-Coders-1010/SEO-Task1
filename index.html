@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="top" align="centre">
+        <h1>Welcome to my Portfolio!</h1>
+        <div class="navbar"><a href="index.html" >Home</a>
+        <a href = "#project">Projects</a>
+        <a href = "#skill">Skill-Set</a></div>
+        <hr>
+        
+    </header>
+
+    <div id="intro">
+        <h1>Know Me!</h1>
+        <img src="pic.jpg">
+        <h2>Bhavnoor Singh  </h2><audio src="name.ogg" id="name"></audio><button onclick="document.getElementById('name').play()">  🔊</button>
+        <p>Hello Everybody! I am Bhavnoor Singh.<br>
+            A Y23 pursuing B.Tech. in IIT Kanpur.<br>
+            I like cooking and researching.<br>
+            Hope to see you around!<br>
+            Email id: <a href="mailto:singh.bhavnoor.4854@gmail.com">singh.bhavnoor.4854@gmail.com</a> | Contact Number: 9899835666
+        </p>
+    </div>
+    <div class = "element" id = "project">
+        <h1>Projects Completed</h1>
+        <div class="element"><img src="va.webp" height = "10px" class="divtest odd" >
+            <h3>Alexa/Jarvis Voice Assistant</h3><p id="lorem1">This is a voice assistant similar to Jarvismade via Rule Based Learning.</p></div>
+        <div class="element"><img src="web.jpg" height = "10px" class="divtest even" id="samplething">
+            <h3>Website for School TechClub</h3><p id="lorem1">Started a coding club with my fellow classmates in school to teach grades 9th and 10th python programming, app development for which a prototype website was developed.</p>
+        </div>
+        <div class="element"><img src="edu.jpg" height = "10px" class="divtest odd" >
+            <h3>Techno-Edu App</h3><p id="lorem1">An app made in Tkinter (Python GUI library) for class 10 CBSE students to have easy access to CBSE Resources.</p></div>
+        <div class="element"><img src="mrs.jpg" height = "10px" class="divtest even" id="samplething">
+            <h3>Music Recommender System (KNN)</h3><p id="lorem1">Students here at IITK, are very fond of music and it is their daily support be it Antaragni days or Exam-Time! Therefore, this Music Recommender System is an attempt to provide an appropriate recommendation to feel the bliss!</p>
+        </div>
+    </div>
+    <div id = "skill">
+        <h1>Skill Set</h1>
+        <ul>
+            <li><bold>Python Programming</bold><br>Intermediate<br>(~1000 loc)</li>
+            <li><bold>SQL (RDBMS)</bold><br>Basic<br>(~100 loc)</li>
+            <li><bold>C++ Programming</bold><br>Basic<br>(~500 loc)</li>
+            <li><bold>C Programming</bold><br>Basic<br>(~500 loc)</li>
+            <li><bold>AutoCAD</bold><br>Basic</li>
+            <li><bold>Machine Learning</bold><br>Basic<br>(~200 loc)</li>
+        </ul>
+    </div>
+
+    <footer >
+        <hr>
+        <form action="index.html" method="post" enctype="multipart/form-data">
+            <label for="username">Name:<span style="color: red;">*</span> </label>
+            <input type = "text" id = "username" required maxlength = "15" minlength="5" placeholder="ABCD_EFGH">
+
+            <br><label for="email">Email: </label>
+            <input type="email" id = "email" placeholder="acbd@gmail.com">
+            <br><label for="phone">Phone number:</label>
+            <input type="tel" id = "phone" placeholder = "1234567890">
+            <br><label for="date">D.O.B.</label>
+            <input type="date" id = "date">
+
+            <br><label for="title">Title: </label>
+
+            <label for="mr">Mr.</label>
+            <input type="radio" id= "mr" name = "title">
+            <label for="ms">Ms.</label>
+            <input type="radio" id= "ms" name = "title">
+            <label for="dr">Dr.</label>
+            <input type="radio" id= "dr" name = "title">
+            <!-- Drop Down -->
+            <br><label for="batch">Batch:</label>
+            <select id = "batch" >
+                <option>Y23</option>
+                <option>Y22</option>
+                <option>Y21</option>
+                <option>Y20</option>
+                <option>Before Y20</option>
+            </select>
+
+            <br><label for="msg">Enter Message:</label><br>
+            <textarea placeholder="Message" rows="5" cols = "50" ></textarea>
+
+
+            <br><input type="reset" class="formbuttons">
+            <input type = "submit" class="formbuttons">
+        </form>
+
+        <a href="https://www.instagram.com" target="_blank"><img class="social" src = "ins.jpg" height="30px"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img class="social" src = "link.png" height="30px"></a>
+        <a href="https://www.leetcode.com" target="_blank"><img class="social" src = "leet.jpg" height="30px"></a>
+        <a href="mailto:singh.bhavnoor.4854@gmail.com"><img class="social" src = "mail.jpg" height="30px"></a>
+        <p>(Fake Copyright)&copy; Since 2024 Bhavnoor Singh</p>
+    </footer>
+</body>
+</html>

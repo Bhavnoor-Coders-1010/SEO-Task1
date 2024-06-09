@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(67, 66, 66);
+    margin: 0;
+}
+header{
+    /* position: sticky; */
+    /* top: 0px; */
+    /* box-sizing: border-box; */
+    background-color: rgb(67, 66, 66);
+    position: sticky;
+    top: 0;
+
+}
+header h1{
+    display: inline-block;
+    width: 50%;
+    color: azure;
+    padding-left: 1%;
+}
+
+header .navbar{
+    display: inline-block;
+    /* width: fit-content;
+     */
+    /* margin-left: 5em; */
+    width: 48%;
+    text-align: right;
+}
+header .navbar a{
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: rgb(67, 66, 66);
+    color: whitesmoke;
+}
+header .navbar a:hover{
+    background-color: rgb(158, 155, 155);
+}
+form{
+    padding: 8px;
+}
+form input{
+    padding: 8px;
+    border-radius: 5px;
+}
+form label{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form select{
+    padding: 8px;
+    border-radius: 5px;
+}
+form textarea{
+    padding: 8px;
+    border-radius: 5px;
+}
+form .formbuttons{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+.social{
+    border-radius: 10px;
+    height: 40px;
+}
+#intro{
+    text-align: center;
+    background-color: rgb(215, 255, 255);
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#intro img{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px ;
+}
+#intro p{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#intro button{
+    display: inline-block;
+}
+#intro a{
+    color: black;
+}
+#intro a:visited{
+    color: black;
+}
+
+.divtest{
+    box-shadow: 5px 5px 3px grey;
+    border: 3px solid;
+    /* width: 100px; */
+    height: 200px;
+    text-shadow: 5px 5px 4px red, -5px -5px 4px blue;
+    /* margin-left: auto;  */
+    text-align: center;
+    align-content: center;
+    /* float: left; */
+    margin-right: 10px;
+
+}
+.odd{
+    float: left;
+}
+.even{
+    float: right;
+}
+.element{
+    display:flow-root;
+    padding: 10px;
+}
+#project{
+    /* text-align: center; */
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#lorem1{
+    font-size: 20px;
+    color: rgb(220, 238, 255);
+}
+.element h3{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornsilk;
+}
+#skill{
+    text-align: center;
+    background-color: rgb(215, 255, 255);
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#skill li{
+    padding: 20px;
+    font-size: 20px;
+}
+#skill li::marker{
+    content: "⭐";
+}
+
